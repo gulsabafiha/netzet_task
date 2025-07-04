@@ -1,36 +1,94 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Fametonic Homepage
 
-## Getting Started
+Welcome to the **Fametonic Homepage** repository!
+This project is a modern, responsive landing page for Fametonic, designed to look great on both desktop and mobile devices. It features a bold hero section, animated CTA, and a clean, accessible layout.
 
-First, run the development server:
+---
 
+## ✨ Features
+
+- **Responsive Design:** Looks great on all devices (mobile, tablet, desktop).
+- **Modern UI:** Built with Next.js and React, using CSS Modules for scoped styling.
+- **Customizable:** Easily update content, images, and styles to fit your brand.
+- **Accessible:** Uses semantic HTML and accessible navigation.
+- **Mobile Navigation:** Hamburger menu for mobile, with smooth toggle.
+- **Figma-accurate:** Layout and typography match Figma design specs.
+
+---
+
+## 🚀 Getting Started
+
+### 1. **Clone the repository**
+```bash
+git clone https://github.com/your-username/fametonic-homepage.git
+cd fametonic-homepage
+```
+
+### 2. **Install dependencies**
+```bash
+npm install
+# or
+yarn install
+```
+
+### 3. **Run the development server**
 ```bash
 npm run dev
 # or
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
+```
+Open [http://localhost:3000](http://localhost:3000) to view the homepage in your browser.
+
+---
+
+## 🖼️ Project Structure
+
+```
+fametonic-homepage/
+├── app/
+│   ├── page.tsx         # Main React component for the homepage
+│   ├── page.module.css  # CSS Modules for styling
+│   └── ...              # Other components/assets
+├── public/
+│   ├── logo.png
+│   ├── banner-img.png
+│   └── ✨.png            # Feature icons
+├── package.json
+└── README.md
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🛠️ Customization
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **Images:** Replace images in the `public/` folder with your own.
+- **Colors & Fonts:** Update variables and font imports in `app/page.module.css`.
+- **Content:** Edit text in `app/page.tsx` to match your brand and offering.
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## 📱 Responsive Design
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- **Desktop:** Logo and navigation are aligned at the top, hero content and image are side-by-side.
+- **Mobile:** Logo is centered, hamburger menu appears on the right, hero image stacks above content, and all sections are optimized for small screens.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## 📝 License
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+This project is for demonstration and educational purposes.
+For commercial use, please contact the author or your organization's legal team.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+## 🙏 Credits
+
+- **Design:** Based on Figma specs provided by the Fametonic team.
+- **Development:** [Your Name or Team]
+- **Framework:** [Next.js](https://nextjs.org/), [React](https://reactjs.org/)
+
+---
+
+## 💬 Feedback & Contributions
+
+Feel free to open issues or pull requests for improvements, bug fixes, or suggestions!
