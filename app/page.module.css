@@ -238,7 +238,7 @@
 }
 
 @media (max-width: 600px) {
-  body, .wrapper {
+  .wrapper {
     background: #010101;
     min-height: 100vh;
     width: 100vw;

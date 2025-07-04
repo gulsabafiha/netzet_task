@@ -51,7 +51,7 @@ export default function Home() {
             <a href="#get-started" className={styles.ctaBtn}>GET STARTED</a>
             <div className={styles.ctaSubtext}>1-minute quiz for personalized Insights</div>
             <div className={styles.ctaTerms}>
-              By clicking "Get Started", you agree with Terms and Conditions, Privacy Policy, Subscription Terms
+              By clicking &quot;Get Started&quot;, you agree with Terms and Conditions, Privacy Policy, Subscription Terms
             </div>
             <div className={styles.copyright}>
               Fametonic 2025 ©All Rights Reserved.
